@@ -1,4 +1,4 @@
-# Hack-the-Bay
+# Hack the Bay
 This repo is intended to provide primary datasets and starter code for the Hack the Bay hackathon. 
 
 ## Contents
