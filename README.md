@@ -1,6 +1,9 @@
 # Hack the Bay: Data
 This repo is intended to provide primary datasets and starter code for the Hack the Bay hackathon. 
 
+## Overview
+CMC’s data is intended to fill spatial and temporal data gaps that exist in the federal Chesapeake Bay Program’s (CBP) database. Both CMC and CBP measure the health of the watershed through monitoring both chemical water quality indicators and counting the presence of different benthic organisms. For all hackathon challenges, we recommend participants use both CMC and CBP water quality data (with the option of also analyzing benthic data). We have downloaded water quality and benthic datasets here and made them available in this repo. In addition to these datasets, there are links to more suggested datasets for each challenge below. 
+
 ## Recommended Datasets
 X = primary dataset (strongly recommended)
 
@@ -24,10 +27,13 @@ o = optional (suggested)
 | US Census | [County Boundary Maps](https://catalog.data.gov/dataset/tiger-line-shapefile-2017-nation-u-s-current-county-and-equivalent-national-shapefile) | | | | X |
 | USDA | [HUC12 Boundary Maps](https://nrcs.app.box.com/v/huc/file/532373547877) | X | X | X | o |
 
+## CMC & CBP Data Dictionaries
+  - [CMC Data Dictionary](https://www.chesapeakemonitoringcoop.org/wp-content/uploads/2020/07/Data-Dictionary_June-2020.pdf)
+  - [CMC Water Quality Data Rubric](https://www.chesapeakemonitoringcoop.org/wp-content/uploads/2018/11/CMC-Water-Quality-Data-Rubric_6.18.2020.pdf) - this document explains the three tiers of data in CMC's database
+  - [CBP Data Dictionary](https://www.chesapeakebay.net/documents/3676/cbwqdb2004_rb.pdf)
+  - Mapping of CMC Parameters to CBP Parameters
+  
 ## Understanding the Data
-CMC and the Chesapeake Bay Program (CBP) measure health of the watershed through monitoring both chemical indicators and counting the presence of different benthic organisms. 
-
-CMC’s data is intended to fill spatial and temporal data gaps that exist in the federal Chesapeake Bay Program’s (CBP) database. For all hackathon challenges, we recommend participants use both CMC and CBP water quality data (which we have downloaded here and made available in this repo.) In addition to these datasets, there are links to more suggested datasets for each challenge above.  
 
 ### Geospatial Density
 The Chesapeake Bay watershed spans Virginia, Maryland, Delaware, West Virginia, Pennsylvania, New York and Washington, DC. CMC’s data has greater coverage in some states over others, and is largely dependent on the activity level and participation of monitoring groups in those states.  As of June 2020, CMC’s water quality database included samples from over 1,600 unique collection points (compared to 466 unique collection points in CBP’s database). 
@@ -50,12 +56,6 @@ To tell a story across time, we need data collected seasonally and annually so t
 If you select a challenge that recommends picking a specific part of the watershed to focus your analysis on, consider some ways that the watershed could be separated geographically:
 -	Hydrologic Unit Code (HUC): HUCs are a specific type of boundary for bodies of water that range in detail from HUC-2 (2-digit HUC) to HUC-12 (12-digit HUC). For environmental analyses, evaluating parts of the watershed by HUC-12 is recommended (ex., for Challenges 1, 2, and 3).
 -	County / Municipality: Using administrative boundaries makes sense when comparing environmental data to social and demographic data (ex., for Challenge 4).
-
-## Data Dictionaries
-  - [CMC Data Dictionary](https://www.chesapeakemonitoringcoop.org/wp-content/uploads/2020/07/Data-Dictionary_June-2020.pdf)
-  - [CMC Water Quality Data Rubric](https://www.chesapeakemonitoringcoop.org/wp-content/uploads/2018/11/CMC-Water-Quality-Data-Rubric_6.18.2020.pdf) - this document explains the three tiers of data in CMC's database
-  - [CBP Data Dictionary](https://www.chesapeakebay.net/documents/3676/cbwqdb2004_rb.pdf)
-  - Mapping of CMC Parameters to CBP Parameters
   
 ## Code
 
