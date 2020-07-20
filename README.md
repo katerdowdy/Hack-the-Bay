@@ -3,6 +3,7 @@ This repo is intended to provide primary datasets and starter code for the Hack 
 
 ## Recommended Datasets
 X = primary dataset (strongly recommended)
+
 o = optional (suggested)
 
 | Source | Dataset | Challenge 1 | Challenge 2 | Challenge 3 | Challenge 4 |
@@ -38,11 +39,12 @@ CMC’s water quality data goes back as far as 1992, with the majority of their 
 Participants exploring CMC’s data for the first time will notice that data collection is highly variable across time, space, and water quality parameter. Data sparsity is a reality of many environmental datasets. When planning your analysis, each challenge recommends focusing on either a geographic area or one of a few parameters that can be compared across space/time.   
 
 To tell a story across space, we need data that effectively covers a region with samples to represent the condition of the area. 
-•	It is important to represent different habitats and land uses like forest, agricultural fields and urban settings.
-•	Other habitats might be valuable to represent such as headwater streams versus lowland streams, or ponds and reservoirs versus rivers and bays, as examples of locating land use and land cover categories that show an abundance of data versus data gaps.
+  - It is important to represent different habitats and land uses like forest, agricultural fields and urban settings.
+  - Other habitats might be valuable to represent such as headwater streams versus lowland streams, or ponds and reservoirs versus rivers and bays, as examples of locating land use and land cover categories that show an abundance of data versus data gaps.
+
 To tell a story across time, we need data collected seasonally and annually so that change over time can be evaluated. Trends in time tend to require at least 4 years of data while time trends necessitating 10 or more years of data are very valuable. 
-•	CMC is most interested in locations that have collected data in the last 5 years. (Locations with robust historic data that have not collected new data in the last five years would be considered a gap.)
-•	The ideal sampling rhythm is 1x per month for water quality and 2x per year for benthic observations.
+  - CMC is most interested in locations that have collected data in the last 5 years. (Locations with robust historic data that have not collected new data in the last five years would be considered a gap.)
+  - The ideal sampling rhythm is 1x per month for water quality and 2x per year for benthic observations.
 
 ### Selecting Locations
 If you select a challenge that recommends picking a specific part of the watershed to focus your analysis on, consider some ways that the watershed could be separated geographically:
